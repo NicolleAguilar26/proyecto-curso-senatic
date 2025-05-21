@@ -9,7 +9,7 @@ print("Primeras filas:")
 print(df.head())
 print("\nInformación del dataset:")
 print(df.info())
-print("\nEstadísticas básicas:")
+print("\nEstadísticas básicas:") 
 print(df.describe())
 for col in df.columns:
     plt.figure(figsize=(6, 4))
